@@ -1,0 +1,47 @@
+body {
+    background: #8686a9;
+    color:rgb(48, 28, 98);
+    font-family:fantasy;
+}
+
+
+
+
+
+
+
+p {
+    background:#7a7ebe;
+    color:beige;
+    border:5px groove;
+    padding:10px;
+    margin:30px;
+}
+
+
+p:hover{
+    color:#7a7ebe;
+    background:beige;
+}
+
+
+.banner {
+    text-align:center;
+    font-size:170%;
+    border-style:dashed;
+}
+
+
+
+
+
+a {
+    color:rgb(201, 247, 48);
+    font-style:italic;
+    font-weight:bold;
+}
+
+
+a:hover {
+    color:#89be7a;
+}
