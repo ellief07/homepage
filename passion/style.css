@@ -1,6 +1,6 @@
 body {
-    background-color:#ededdd;
-    background-image:url("img/full_body.jpeg");
+    background-color:#1d050f;
+    baXXXckground-image:url("img/full_body.jpeg");
     background-size:cover;
     background-position:center;
 }
@@ -25,7 +25,6 @@ h2 {
     font-size:20px;
     padding:20px;
     border-style:ridge;
-    border-top:hidden;
     border-color:#471428;
     border-width:10px;
 }
