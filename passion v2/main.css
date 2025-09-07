@@ -1,0 +1,195 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:#e3dee6;
+    color:#756e7a;
+    overflow-x:hidden;
+}
+
+img {
+    max-width:100%;
+}
+
+h1 {
+    text-align:center;
+
+}
+
+p {
+    text-align:center;
+    position:relative;
+    bottom:70px;
+    z-index:-1;
+}
+
+a:link {
+    font-style:italic;
+    color:#cee1bd;
+    font-size:40px;
+}
+
+a:visited {
+    color:#5c6c4e;
+}
+
+
+/* header */
+.header {
+    background:#756e7a;
+    width:100%;
+    min-width:50%;
+    height:100px;
+    color:#e3dee6;
+    z-index:5;
+}
+
+.toptext {
+    position:absolute;
+    top:20px;
+    left:120px;
+    display:inline;
+    font-size:30px;
+}
+
+.toptextsmall {
+    position:absolute;
+    top:60px;
+    left:120px;
+    min-width:100%;
+    display:inline;
+    font-size:16px;
+}
+
+.funfacts {
+    position:absolute;
+    top:32px;
+    left:1300px;
+    font-size:30px;
+}
+
+.topbird {
+    position:absolute;
+    top:10px;
+    left:20px;
+    width:75px;
+    display:inline;
+    margin:auto;
+}
+
+
+/* misc */
+
+.sticky {
+    position:sticky;
+    top:0px;
+}
+
+.relative {
+    position:relative;
+}
+
+
+
+
+/* dropdown */
+.dropdown {
+    position:absolute;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    top:40px;
+    right:0px;
+    min-width:130px;
+    padding:12px 16px;
+    background-color:#e3dee6;
+    box-shadow: 0px 8px 16px 0px #756e7a79;
+    color:#756e7a;
+    width:750px;
+    height:190px;
+    font-size:20px;
+    align-content:center;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+
+
+/* color variants scroll */
+div.scroll-container {
+    overflow:auto;
+    white-space:nowrap;
+    padding:10px;
+    position:relative;
+    width:1200px;
+    height:600px;
+    margin:auto;
+    border: 15px double #756e7a;
+    overflow-y:hidden;
+    overflow-y:hidden;
+}
+
+.caption {
+    position:absolute;
+    display:inline;
+    top:505px;
+    font-style:italic;
+}
+
+/* grid */
+.container {
+    display:grid;
+    grid-template-columns:auto auto auto;
+    padding:10px;
+    height:500px;
+}
+
+.container > div {
+    background-color:#e3dee6;
+    margin:10px;
+    padding:10px;
+    font-size:30px;
+    text-align:center;
+    color:#e3dee6;
+    align-content:center;
+}
+
+.double-border {
+    border: 15px double #756e7a;
+}
+
+/* zoom */
+.zoom {
+    position:relative;
+    padding:50px;
+    transition:transform .2s;
+    width:200px;
+    margin: 0 auto;
+    z-index:2;
+}
+
+.zoom:hover {
+    transform: scale(10);
+    z-index:1;
+}
+
+
+/* first day pic */
+.firstdayimg {
+    position:relative;
+    left:300px;
+    border: 15px double #756e7a;
+}
+
+.firstdaytxt {
+    position:relative;
+    left:270px;
+    bottom:340px;
+    font-size:larger;
+    line-height:35px;
+}
