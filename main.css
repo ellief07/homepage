@@ -1,11 +1,18 @@
 body {
-    background-color:#90a485;
+    background-color:#a1c0ca;
+    background-image: linear-gradient(#a1c0ca, #a7cea8);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
 }
 
 h1 {
-    color:#2c1908;
+    color:#123541;
     font-size:50px;
+}
+
+p {
+    color:#123541;
+    font-size:30px;
 }
 
 a:link {
@@ -15,3 +22,4 @@ a:link {
 a:visited {
     color:#233e11;
 }
+
