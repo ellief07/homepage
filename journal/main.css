@@ -2,6 +2,9 @@ body {
     background-color:#90a485;
     color:#301c0b;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:70%;
+    padding:30px;
+    margin-left:80px;
 }
 
 hr {
