@@ -8,6 +8,14 @@ img {
 
 body {
     margin:0px;
+    color:#2a2a75;
+}
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .sky {
@@ -24,6 +32,10 @@ body {
     align-items:center;
     gap:10px;
     /* border: 2px solid lightblue; */
+}
+
+.aa {
+    background:#696c95;
 }
 
 .a {
@@ -146,7 +158,8 @@ body {
 }
 
 .sun {
-    background:#fae886;
+    /* background:#fae886; */
+    background-image:linear-gradient(#fbefaa, #fae886);
     height:300px;
     width:300px;
     position:sticky;
