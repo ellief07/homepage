@@ -1,0 +1,57 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    background:#1e202f;
+    color:aliceblue;
+}
+
+.light {
+    background:#4b5077;
+}
+
+
+.menu {
+    background:#3e5768;
+    position:fixed;
+    top:0;
+    right:-200px;
+    padding:20px;
+    width:200px;
+    text-align:center;
+    font-size:150%;
+    height:100vh;
+
+    transition:all .3s;
+}
+
+.active {
+  right:0;
+}
+
+
+.gear {
+    width:50px;
+    height:50px;
+    background:#3e5768;
+    position:fixed;
+    bottom:20px;
+    left:20px;
+
+    transition:all .3s;
+}
+
+.spin {
+    rotate:180deg;
+}
+
+
+.glow {
+    background-color:lightyellow;
+    color:#3e5768;
+}
