@@ -8,10 +8,29 @@ img {
 
 body {
     overflow:hidden;
+    background-image: url("img/bg.jpg");
+    background-size:cover;
 }
 
-.reset {
+/* .topbar {
+    background:yellow;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     
+} */
+
+button {
+    /* background:#a3b8ce; */
+    width:200px;
+    height:60px;
+    font-size:larger;
+    border:none;
+}
+
+button.hover {
+    background:green;
 }
 
 .page {
@@ -19,10 +38,12 @@ body {
     display:flex;
     align-items:center;
     justify-content:center;
+    flex-direction:column;
+    gap:20px;
 }
 
 .container {
-    background:#a3b8ce;
+    /* background:#a3b8ce; */
     width:600px;
     height:600px;
     display:flex;
@@ -33,11 +54,45 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box {
-    background:#4a5764;
     width:130px;
     height:130px;
-    border:solid 1px white;
+    /* border:solid 1px white; */
 }
 
 
@@ -46,7 +101,7 @@ body {
     left:200vw;
 }
 
-.a {
+/* .a {
     background:red;
 }
 
@@ -105,3 +160,7 @@ body {
 .o {
     background:whitesmoke;
 }
+
+.p {
+    background:#00fff7;
+} */
