@@ -27,6 +27,8 @@ button {
     height:60px;
     font-size:larger;
     border:none;
+    font-family:'Courier New', Courier, monospace;
+    color:#294629;
 }
 
 button.hover {
@@ -55,44 +57,10 @@ button.hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .box {
     width:130px;
     height:130px;
-    /* border:solid 1px white; */
+    border:solid 1px white;
 }
 
 
