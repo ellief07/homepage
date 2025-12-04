@@ -3,6 +3,7 @@ body {
     background-image: linear-gradient(#a1c0ca, #a7cea8);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
+    overflow:hidden;
 }
 
 h1 {
